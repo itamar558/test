@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>הסל של שלז</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="main">הסל של שלז</h1>
+    <div class="menu-bar">
+      <a href="index.html" class="menu">דף הבית</a
+      ><a href="images.html" class="menu">תמונות</a>
+      <a href="videos.html" class="menu">סרטונים</a>
+    </div>
+    <h2 id="about-us">קצת עלינו</h2>
+    <p>משק שלזינגר הוא מפעלו של החקלאי החתיך והכריזמטי שמואל שלזינגר</p>
+    <button onclick="odiImage()" id="odi-button">אם אתה אודי לחץ כאן</button>
+
+    <script>
+      function odiImage() {
+        document.body.innerHTML = `<img class="odi-image" src="אודי.jpg" />`;
+      }
+    </script>
+  </body>
+</html>
